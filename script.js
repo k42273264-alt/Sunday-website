@@ -1,7 +1,8 @@
 (function(){
   const $ = s=>document.querySelector(s);
   const $$ = s=>Array.from(document.querySelectorAll(s));
-  const q = $('#q'); const region=$('#region'); const purpose=$('#purpose'); const dog=$('#dog'); const reset=$('#reset');
+  const q = $('#q'); const region=$('#region'); const hotel=$('#hotel');
+  const purpose=$('#purpose'); const dog=$('#dog'); const reset=$('#reset');
   const cards = $$('.card');
 
   function applyFilters(){
@@ -13,10 +14,13 @@
       const city = card.dataset.city.toLowerCase();
       const tags = card.dataset.tags.split(',');
       const okTerm = !term || name.includes(term) || city.includes(term);
-      const okRegion = !reg || card.dataset.region===reg;
+      const okRegion = !reg || card.dataset.city === reg;
       const okPurpose = !pur || tags.includes(pur);
       const okDog = !wantDog || tags.includes('dog');
-      const show = okTerm && okRegion && okPurpose && okDog;
+      const selectedHotel = hotel.value;
+      const okHotel = !selectedHotel || card.querySelector('h3').textContent.trim() === selectedHotel;
+      const show = okTerm && okRegion && okPurpose && okDog && okHotel;
+
       card.style.display = show ? '' : 'none';
       if(show) visible++;
     });
@@ -40,10 +44,11 @@
   ['input','change'].forEach(ev=>{
     q.addEventListener(ev,applyFilters);
     region.addEventListener(ev,applyFilters);
+    hotel.addEventListener(ev,applyFilters);
     purpose.addEventListener(ev,applyFilters);
     dog.addEventListener(ev,applyFilters);
   });
-  reset.addEventListener('click',()=>{q.value='';region.value='';purpose.value='';dog.checked=false;applyFilters();});
+  reset.addEventListener('click',()=>{q.value='';region.value='';hotel.value=''; purpose.value='';dog.checked=false;applyFilters();});
   applyFilters();
 })();
 // --- Auto-add "View on Google Maps" links to all map previews ---
