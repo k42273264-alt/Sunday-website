@@ -109,3 +109,17 @@ if (browseHotelsBtn && heroSearch) {
 }
 
 
+// Animate hero paragraph when visible
+const heroParagraph = document.querySelector('.hero-lead');
+
+if (heroParagraph) {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        heroParagraph.classList.add('visible');
+        observer.disconnect();
+      }
+    });
+  });
+  observer.observe(heroParagraph);
+}
