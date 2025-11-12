@@ -1,550 +1,889 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sunday Hotels UK | All Properties</title>
-  <meta name="description" content="Explore all Sunday Brand hotels across the UK in one place. Browse, filter, and book your stay directly." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="styles.css"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sunday Hotels UK | All Properties</title>
+    <meta
+      name="description"
+      content="Explore all Sunday Brand hotels across the UK in one place. Browse, filter, and book your stay directly."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- JSON-LD: ItemList of properties -->
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"ItemList",
-    "name":"Sunday Hotels UK",
-    "itemListElement":[
+    <!-- JSON-LD: ItemList of properties -->
+    <script type="application/ld+json">
       {
-        "@type":"ListItem","position":1,
-        "item":{
-          "@type":"Hotel",
-          "name":"Sunday Warwickshire Walton Hall Hotel & Spa",
-          "description":"A 16th-century hall and hotel in 65 acres of Warwickshire countryside with 197 rooms, spa, private dining, and dog-friendly stays.",
-          "address":{
-            "@type":"PostalAddress",
-            "streetAddress":"Walton",
-            "addressLocality":"Wellesbourne",
-            "addressRegion":"Warwickshire",
-            "postalCode":"CV35 9HU",
-            "addressCountry":"UK"
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Sunday Hotels UK",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Hotel",
+              "name": "Sunday Warwickshire Walton Hall Hotel & Spa",
+              "description": "A 16th-century hall and hotel in 65 acres of Warwickshire countryside with 197 rooms, spa, private dining, and dog-friendly stays.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Walton",
+                "addressLocality": "Wellesbourne",
+                "addressRegion": "Warwickshire",
+                "postalCode": "CV35 9HU",
+                "addressCountry": "UK"
+              },
+              "telephone": "+441789842424",
+              "email": "mice.waltonhall@hotelssunday.com",
+              "url": "https://k42273264-alt.github.io/Walton-Sunday/",
+              "image": "https://k42273264-alt.github.io/Walton-Sunday/images/grounds-estate-birdseye-view.jpg",
+              "starRating": { "@type": "Rating", "ratingValue": "4" },
+              "amenityFeature": [
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Dog Friendly",
+                  "value": "Yes"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Private Dining",
+                  "value": "Up to 200"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Chapel",
+                  "value": "On-site"
+                }
+              ]
+            }
           },
-          "telephone":"+441789842424",
-          "email":"mice.waltonhall@hotelssunday.com",
-          "url":"https://k42273264-alt.github.io/Walton-Sunday/",
-          "image":"https://k42273264-alt.github.io/Walton-Sunday/images/grounds-estate-birdseye-view.jpg",
-          "starRating":{"@type":"Rating","ratingValue":"4"},
-          "amenityFeature":[
-            {"@type":"LocationFeatureSpecification","name":"Dog Friendly","value":"Yes"},
-            {"@type":"LocationFeatureSpecification","name":"Private Dining","value":"Up to 200"},
-            {"@type":"LocationFeatureSpecification","name":"Chapel","value":"On-site"}
-          ]
-        }
-      },
-      {
-        "@type":"ListItem","position":2,
-        "item":{
-          "@type":"Hotel",
-          "name":"Sunday Bristol Grand Hotel",
-          "description":"A luxurious Victorian hotel in Bristol's Old City, offering 186 elegant rooms, Asian dining at Thecha, and grand event spaces for up to 500 guests.",
-          "address":{
-            "@type":"PostalAddress",
-            "streetAddress":"Broad Street",
-            "addressLocality":"Bristol",
-            "addressRegion":"Bristol",
-            "postalCode":"BS1 2EL",
-            "addressCountry":"UK"
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Hotel",
+              "name": "Sunday Bristol Grand Hotel",
+              "description": "A luxurious Victorian hotel in Bristol's Old City, offering 186 elegant rooms, Asian dining at Thecha, and grand event spaces for up to 500 guests.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Broad Street",
+                "addressLocality": "Bristol",
+                "addressRegion": "Bristol",
+                "postalCode": "BS1 2EL",
+                "addressCountry": "UK"
+              },
+              "telephone": "+441179291645",
+              "email": "fomanager1.bristol@hotelssunday.com",
+              "url": "https://bristolgrandhotel.booksundays.com/",
+              "image": "https://bristolgrandhotel.booksundays.com/images/exterior/victorian-facade.jpg",
+              "starRating": { "@type": "Rating", "ratingValue": "4" },
+              "amenityFeature": [
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Restaurant",
+                  "value": "Thecha Asian Restaurant"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Event Venues",
+                  "value": "11 spaces for 10–500 guests"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Pet-Friendly",
+                  "value": "Dog-friendly rooms"
+                }
+              ],
+              "petsAllowed": true
+            }
           },
-          "telephone":"+441179291645",
-          "email":"fomanager1.bristol@hotelssunday.com",
-          "url":"https://bristolgrandhotel.booksundays.com/",
-          "image":"https://bristolgrandhotel.booksundays.com/images/exterior/victorian-facade.jpg",
-          "starRating":{"@type":"Rating","ratingValue":"4"},
-          "amenityFeature":[
-            {"@type":"LocationFeatureSpecification","name":"Restaurant","value":"Thecha Asian Restaurant"},
-            {"@type":"LocationFeatureSpecification","name":"Event Venues","value":"11 spaces for 10–500 guests"},
-            {"@type":"LocationFeatureSpecification","name":"Pet-Friendly","value":"Dog-friendly rooms"}
-          ],
-          "petsAllowed":true
-        }
-      },
-      {
-        "@type":"ListItem","position":3,
-        "item":{
-          "@type":"Hotel",
-          "name":"Sunday Liverpool Atlantic Tower Hotel",
-          "description":"A luxurious 4-star retreat with stunning Mersey views, 225 elegant rooms, fine dining at Vista Restaurant & Vu Bar, and event spaces near the Royal Liver Building.",
-          "address":{
-            "@type":"PostalAddress",
-            "streetAddress":"Chapel Street",
-            "addressLocality":"Liverpool",
-            "addressRegion":"Merseyside",
-            "postalCode":"L3 9RE",
-            "addressCountry":"UK"
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Hotel",
+              "name": "Sunday Liverpool Atlantic Tower Hotel",
+              "description": "A luxurious 4-star retreat with stunning Mersey views, 225 elegant rooms, fine dining at Vista Restaurant & Vu Bar, and event spaces near the Royal Liver Building.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Chapel Street",
+                "addressLocality": "Liverpool",
+                "addressRegion": "Merseyside",
+                "postalCode": "L3 9RE",
+                "addressCountry": "UK"
+              },
+              "telephone": "+441512274444",
+              "email": "reservation1.liverpool@hotelssunday.com",
+              "url": "https://liverpoolatlantictowerhotel.booksundays.com/",
+              "image": "https://liverpoolatlantictowerhotel.booksundays.com/images/mersey-view.jpg",
+              "starRating": { "@type": "Rating", "ratingValue": "4" },
+              "amenityFeature": [
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Restaurant",
+                  "value": "Vista Restaurant & Vu Bar & Terrace"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Event Venues",
+                  "value": "National Suite (up to 120), Vista Suite (up to 150)"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Pet-Friendly",
+                  "value": "Dog-friendly rooms (£20/night)"
+                }
+              ],
+              "petsAllowed": true
+            }
           },
-          "telephone":"+441512274444",
-          "email":"reservation1.liverpool@hotelssunday.com",
-          "url":"https://liverpoolatlantictowerhotel.booksundays.com/",
-          "image":"https://liverpoolatlantictowerhotel.booksundays.com/images/mersey-view.jpg",
-          "starRating":{"@type":"Rating","ratingValue":"4"},
-          "amenityFeature":[
-            {"@type":"LocationFeatureSpecification","name":"Restaurant","value":"Vista Restaurant & Vu Bar & Terrace"},
-            {"@type":"LocationFeatureSpecification","name":"Event Venues","value":"National Suite (up to 120), Vista Suite (up to 150)"},
-            {"@type":"LocationFeatureSpecification","name":"Pet-Friendly","value":"Dog-friendly rooms (£20/night)"}
-          ],
-          "petsAllowed":true
-        }
-      },
-      {
-        "@type":"ListItem","position":4,
-        "item":{
-          "@type":"Hotel",
-          "name":"Sunday Winchester Wessex Hotel",
-          "description":"A luxurious city hotel next to Winchester Cathedral, offering 94 elegant rooms, historic event spaces like the Cathedral Suite (up to 300 guests), and dog-friendly stays.",
-          "address":{
-            "@type":"PostalAddress",
-            "streetAddress":"Paternoster Row",
-            "addressLocality":"Winchester",
-            "addressRegion":"Hampshire",
-            "postalCode":"SO23 9LQ",
-            "addressCountry":"UK"
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "Hotel",
+              "name": "Sunday Winchester Wessex Hotel",
+              "description": "A luxurious city hotel next to Winchester Cathedral, offering 94 elegant rooms, historic event spaces like the Cathedral Suite (up to 300 guests), and dog-friendly stays.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Paternoster Row",
+                "addressLocality": "Winchester",
+                "addressRegion": "Hampshire",
+                "postalCode": "SO23 9LQ",
+                "addressCountry": "UK"
+              },
+              "telephone": "+441962861611",
+              "email": "reception.winchester@hotelssunday.com",
+              "url": "https://winchesterwessexhotel.booksundays.com/",
+              "image": "https://winchesterwessexhotel.booksundays.com/images/exterior/cathedral-view.jpg",
+              "starRating": { "@type": "Rating", "ratingValue": "4" },
+              "amenityFeature": [
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Event Venues",
+                  "value": "Cathedral Suite (up to 300), Wykeham Suite (up to 100)"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Pet-Friendly",
+                  "value": "Dog-friendly rooms (£20/night)"
+                }
+              ],
+              "petsAllowed": true
+            }
           },
-          "telephone":"+441962861611",
-          "email":"reception.winchester@hotelssunday.com",
-          "url":"https://winchesterwessexhotel.booksundays.com/",
-          "image":"https://winchesterwessexhotel.booksundays.com/images/exterior/cathedral-view.jpg",
-          "starRating":{"@type":"Rating","ratingValue":"4"},
-          "amenityFeature":[
-            {"@type":"LocationFeatureSpecification","name":"Event Venues","value":"Cathedral Suite (up to 300), Wykeham Suite (up to 100)"},
-            {"@type":"LocationFeatureSpecification","name":"Pet-Friendly","value":"Dog-friendly rooms (£20/night)"}
-          ],
-          "petsAllowed":true
-        }
-      },
-      {
-        "@type":"ListItem","position":5,
-        "item":{
-          "@type":"Hotel",
-          "name":"Sunday Manchester Portland Hotel",
-          "description":"A vibrant 3-star city-centre hotel opposite Piccadilly Gardens, featuring quirky weather-themed rooms, modern dining at Jamboree, and a boardroom for up to 16 guests.",
-          "address":{
-            "@type":"PostalAddress",
-            "streetAddress":"3–5 Portland Street",
-            "addressLocality":"Manchester",
-            "addressRegion":"Greater Manchester",
-            "postalCode":"M1 6DP",
-            "addressCountry":"UK"
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "Hotel",
+              "name": "Sunday Manchester Portland Hotel",
+              "description": "A vibrant 3-star city-centre hotel opposite Piccadilly Gardens, featuring quirky weather-themed rooms, modern dining at Jamboree, and a boardroom for up to 16 guests.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "3–5 Portland Street",
+                "addressLocality": "Manchester",
+                "addressRegion": "Greater Manchester",
+                "postalCode": "M1 6DP",
+                "addressCountry": "UK"
+              },
+              "telephone": "+441612463400",
+              "email": "reservation1.manchester@hotelssunday.com",
+              "url": "https://manchesterportland.booksundays.com/",
+              "image": "https://manchesterportland.booksundays.com/images/hotel-exterior.jpg",
+              "starRating": { "@type": "Rating", "ratingValue": "3" },
+              "amenityFeature": [
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Restaurant",
+                  "value": "Jamboree Restaurant & Bar"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Event Venues",
+                  "value": "Boardroom (up to 16 guests)"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Pet-Friendly",
+                  "value": "Dog-friendly rooms (£20/night)"
+                }
+              ],
+              "petsAllowed": true
+            }
           },
-          "telephone":"+441612463400",
-          "email":"reservation1.manchester@hotelssunday.com",
-          "url":"https://manchesterportland.booksundays.com/",
-          "image":"https://manchesterportland.booksundays.com/images/hotel-exterior.jpg",
-          "starRating":{"@type":"Rating","ratingValue":"3"},
-          "amenityFeature":[
-            {"@type":"LocationFeatureSpecification","name":"Restaurant","value":"Jamboree Restaurant & Bar"},
-            {"@type":"LocationFeatureSpecification","name":"Event Venues","value":"Boardroom (up to 16 guests)"},
-            {"@type":"LocationFeatureSpecification","name":"Pet-Friendly","value":"Dog-friendly rooms (£20/night)"}
-          ],
-          "petsAllowed":true
-        }
-      },
-      {
-        "@type":"ListItem","position":6,
-        "item":{
-          "@type":"Hotel",
-          "name":"Sunday Staines Hotel",
-          "description":"A charming 4-star riverside retreat on the Thames, offering 88 elegant rooms, modern British dining, and event spaces for up to 40 guests, just 3.7 miles from Heathrow.",
-          "address":{
-            "@type":"PostalAddress",
-            "streetAddress":"Thames Street",
-            "addressLocality":"Staines-upon-Thames",
-            "addressRegion":"Surrey",
-            "postalCode":"TW18 4SJ",
-            "addressCountry":"UK"
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@type": "Hotel",
+              "name": "Sunday Staines Hotel",
+              "description": "A charming 4-star riverside retreat on the Thames, offering 88 elegant rooms, modern British dining, and event spaces for up to 40 guests, just 3.7 miles from Heathrow.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Thames Street",
+                "addressLocality": "Staines-upon-Thames",
+                "addressRegion": "Surrey",
+                "postalCode": "TW18 4SJ",
+                "addressCountry": "UK"
+              },
+              "telephone": "+441784771242",
+              "email": "reception.staines@hotelssunday.com",
+              "url": "https://staineshotel.booksundays.com/",
+              "image": "https://staineshotel.booksundays.com/images/riverside-view.jpg",
+              "starRating": { "@type": "Rating", "ratingValue": "4" },
+              "amenityFeature": [
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Restaurant",
+                  "value": "Riverside Restaurant & Bar"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Event Venues",
+                  "value": "The Conservatory (up to 40 guests)"
+                }
+              ]
+            }
           },
-          "telephone":"+441784771242",
-          "email":"reception.staines@hotelssunday.com",
-          "url":"https://staineshotel.booksundays.com/",
-          "image":"https://staineshotel.booksundays.com/images/riverside-view.jpg",
-          "starRating":{"@type":"Rating","ratingValue":"4"},
-          "amenityFeature":[
-            {"@type":"LocationFeatureSpecification","name":"Restaurant","value":"Riverside Restaurant & Bar"},
-            {"@type":"LocationFeatureSpecification","name":"Event Venues","value":"The Conservatory (up to 40 guests)"}
-          ]
-        }
-      },
-      {
-        "@type":"ListItem","position":7,
-        "item":{
-          "@type":"Hotel",
-          "name":"Sunday Exeter Rougemont Hotel",
-          "description":"A luxurious 4-star city hotel next to Exeter Cathedral, offering elegant rooms, modern British dining, and wedding venues for up to 100 guests.",
-          "address":{
-            "@type":"PostalAddress",
-            "streetAddress":"Queen Street",
-            "addressLocality":"Exeter",
-            "addressRegion":"Devon",
-            "postalCode":"EX4 3SP",
-            "addressCountry":"UK"
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+              "@type": "Hotel",
+              "name": "Sunday Exeter Rougemont Hotel",
+              "description": "A luxurious 4-star city hotel next to Exeter Cathedral, offering elegant rooms, modern British dining, and wedding venues for up to 100 guests.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Queen Street",
+                "addressLocality": "Exeter",
+                "addressRegion": "Devon",
+                "postalCode": "EX4 3SP",
+                "addressCountry": "UK"
+              },
+              "telephone": "+441392410237",
+              "email": "reservation.exeter@hotelssunday.com",
+              "url": "https://exeterrougemonthotel.booksundays.com/",
+              "image": "https://exeterrougemonthotel.booksundays.com/images/exeter-cathedral-view.jpg",
+              "starRating": { "@type": "Rating", "ratingValue": "4" },
+              "amenityFeature": [
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Restaurant",
+                  "value": "Modern British Dining"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Event Venues",
+                  "value": "Devonshire Suite (100), Cavendish Suite (80)"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Pet-Friendly",
+                  "value": "Dog-friendly rooms (£20/night, max 2 under 15kg)"
+                }
+              ],
+              "petsAllowed": true
+            }
           },
-          "telephone":"+441392410237",
-          "email":"reservation.exeter@hotelssunday.com",
-          "url":"https://exeterrougemonthotel.booksundays.com/",
-          "image":"https://exeterrougemonthotel.booksundays.com/images/exeter-cathedral-view.jpg",
-          "starRating":{"@type":"Rating","ratingValue":"4"},
-          "amenityFeature":[
-            {"@type":"LocationFeatureSpecification","name":"Restaurant","value":"Modern British Dining"},
-            {"@type":"LocationFeatureSpecification","name":"Event Venues","value":"Devonshire Suite (100), Cavendish Suite (80)"},
-            {"@type":"LocationFeatureSpecification","name":"Pet-Friendly","value":"Dog-friendly rooms (£20/night, max 2 under 15kg)"}
-          ],
-          "petsAllowed":true
-        }
-      },
-      {
-        "@type":"ListItem","position":8,
-        "item":{
-          "@type":"Hotel",
-          "name":"Sunday Cardiff Holland House Hotel & Spa",
-          "description":"A 15-storey 4-star high-rise in Cardiff city centre with 172 modern rooms, 18m pool, spa, Calon Suite for up to 650 guests, and weddings for 500.",
-          "address":{
-            "@type":"PostalAddress",
-            "streetAddress":"24-26 Newport Road",
-            "addressLocality":"Cardiff",
-            "addressRegion":"Wales",
-            "postalCode":"CF24 0DD",
-            "addressCountry":"UK"
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+              "@type": "Hotel",
+              "name": "Sunday Cardiff Holland House Hotel & Spa",
+              "description": "A 15-storey 4-star high-rise in Cardiff city centre with 172 modern rooms, 18m pool, spa, Calon Suite for up to 650 guests, and weddings for 500.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "24-26 Newport Road",
+                "addressLocality": "Cardiff",
+                "addressRegion": "Wales",
+                "postalCode": "CF24 0DD",
+                "addressCountry": "UK"
+              },
+              "telephone": "+442920435012",
+              "email": "sales.cardiff@hotelssunday.com",
+              "url": "https://cardiffhollandhouse.booksundays.com/",
+              "image": "https://cardiffhollandhouse.booksundays.com/images/Front%20of%20Hotel%20-%20Landing%20Page%20(1).avif",
+              "starRating": { "@type": "Rating", "ratingValue": "4" },
+              "amenityFeature": [
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Spa",
+                  "value": "Spa & Leisure Club with 18m pool"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Event Venues",
+                  "value": "Calon Suite (650), Caernarfon Suite (140)"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Gym",
+                  "value": "Fully Equipped"
+                }
+              ]
+            }
           },
-          "telephone":"+442920435012",
-          "email":"sales.cardiff@hotelssunday.com",
-          "url":"https://cardiffhollandhouse.booksundays.com/",
-          "image":"https://cardiffhollandhouse.booksundays.com/images/Front%20of%20Hotel%20-%20Landing%20Page%20(1).avif",
-          "starRating":{"@type":"Rating","ratingValue":"4"},
-          "amenityFeature":[
-            {"@type":"LocationFeatureSpecification","name":"Spa","value":"Spa & Leisure Club with 18m pool"},
-            {"@type":"LocationFeatureSpecification","name":"Event Venues","value":"Calon Suite (650), Caernarfon Suite (140)"},
-            {"@type":"LocationFeatureSpecification","name":"Gym","value":"Fully Equipped"}
-          ]
-        }
-      },
-      {
-        "@type":"ListItem","position":9,
-        "item":{
-          "@type":"Hotel",
-          "name":"Sunday Box Hill Burford Bridge Hotel",
-          "description":"A historic 4-star countryside retreat at the foot of Box Hill with elegant rooms, Emlyn Restaurant, seasonal outdoor pool, Tithe Barn (180 guests), and dog-friendly stays.",
-          "address":{
-            "@type":"PostalAddress",
-            "streetAddress":"At the Foot of Box Hill",
-            "addressLocality":"Dorking",
-            "addressRegion":"Surrey",
-            "postalCode":"RH5 6BX",
-            "addressCountry":"UK"
-          },
-          "telephone":"+441306884561",
-          "email":"reception.boxhill@hotelssunday.com",
-          "url":"https://boxhillhotel.booksundays.com/",
-          "image":"https://boxhillhotel.booksundays.com/images/exterior/7P7A5497-Edit.jpg",
-          "starRating":{"@type":"Rating","ratingValue":"4"},
-          "amenityFeature":[
-            {"@type":"LocationFeatureSpecification","name":"Restaurant","value":"Emlyn Restaurant"},
-            {"@type":"LocationFeatureSpecification","name":"Event Venues","value":"Tithe Barn (180), Garden Room (60)"},
-            {"@type":"LocationFeatureSpecification","name":"Pool","value":"Seasonal Outdoor Pool"},
-            {"@type":"LocationFeatureSpecification","name":"Pet-Friendly","value":"Superior Rooms (£20/night, max 2 under 15kg)"}
-          ],
-          "petsAllowed":true
-        }
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "item": {
+              "@type": "Hotel",
+              "name": "Sunday Box Hill Burford Bridge Hotel",
+              "description": "A historic 4-star countryside retreat at the foot of Box Hill with elegant rooms, Emlyn Restaurant, seasonal outdoor pool, Tithe Barn (180 guests), and dog-friendly stays.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "At the Foot of Box Hill",
+                "addressLocality": "Dorking",
+                "addressRegion": "Surrey",
+                "postalCode": "RH5 6BX",
+                "addressCountry": "UK"
+              },
+              "telephone": "+441306884561",
+              "email": "reception.boxhill@hotelssunday.com",
+              "url": "https://boxhillhotel.booksundays.com/",
+              "image": "https://boxhillhotel.booksundays.com/images/exterior/7P7A5497-Edit.jpg",
+              "starRating": { "@type": "Rating", "ratingValue": "4" },
+              "amenityFeature": [
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Restaurant",
+                  "value": "Emlyn Restaurant"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Event Venues",
+                  "value": "Tithe Barn (180), Garden Room (60)"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Pool",
+                  "value": "Seasonal Outdoor Pool"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Pet-Friendly",
+                  "value": "Superior Rooms (£20/night, max 2 under 15kg)"
+                }
+              ],
+              "petsAllowed": true
+            }
+          }
+        ]
       }
-    ]
-  }
-  </script>
-</head>
-<body>
-  <!-- Header -->
-  <header class="site-header">
-    <div class="header-wrap">
-      <div class="logo">
-        <img src="images/logo.png" alt="Sunday Hotels Logo" loading="lazy" />
-        <!-- <span class="brand">Sunday Hotels — UK</span> -->
+    </script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="header-wrap">
+        <div class="logo">
+          <img src="images/logo.png" alt="Sunday Hotels Logo" loading="lazy" />
+          <!-- <span class="brand">Sunday Hotels — UK</span> -->
+        </div>
+        <div class="spacer"></div>
+        <a class="cta" href="#" id="browseHotelsBtn">
+  <svg class="cta-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="11" cy="11" r="8"></circle>
+    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+  Browse Hotels
+</a>
+
       </div>
-      <div class="spacer"></div>
-      <a class="cta" href="#all-hotels">Browse Hotels</a>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-inner">
+        <div class="hero-content">
+          <h1>Discover the Sunday Hotels UK Collection</h1>
+          <p class="hero-lead">
+            A curated selection of UK hotels where comfort, character, and
+            thoughtful design meet. From historic manors to modern city hotels,
+            every Sunday property offers warm service, clean rooms, honest
+            pricing, and the ease of booking direct with a brand you can rely
+            on.
+          </p>
+
+          <!-- Hero Search Bar -->
+          <div class="hero-search">
+            <input
+              type="search"
+              id="heroSearch"
+              placeholder="Search by hotel or city name…"
+              aria-label="Search hotels"
+            />
+            <button id="heroSearchBtn" aria-label="Search">
+              <svg
+                class="search-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Controls -->
+    <div class="controls" id="controls">
+      <div class="controls-inner">
+        <input
+          id="q"
+          class="input"
+          type="search"
+          placeholder="Search by hotel or city…"
+          aria-label="Search hotels"
+        />
+        <select id="region" class="select" aria-label="Filter by city">
+        <option value="">All cities</option>
+        <option value="Wellesbourne">Wellesbourne</option>
+        <option value="Bristol">Bristol</option>
+        <option value="Liverpool">Liverpool</option>
+        <option value="Winchester">Winchester</option>
+        <option value="Manchester">Manchester</option>
+        <option value="Staines-upon-Thames">Staines-upon-Thames</option>
+        <option value="Exeter">Exeter</option>
+        <option value="Cardiff">Cardiff</option>
+        <option value="Dorking">Dorking</option>
+        </select>
+
+        <select id="purpose" class="select" aria-label="Filter by purpose">
+          <option value="">Any purpose</option>
+          <option value="weddings">Weddings</option>
+          <option value="meetings">Meetings</option>
+          <option value="spa">Spa</option>
+        </select>
+        <label class="checkbox" title="Dog friendly only">
+          <input id="dog" type="checkbox" /> Dog friendly
+        </label>
+        <button id="reset" class="btn" type="button">Reset</button>
+      </div>
     </div>
-  </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="hero-bg"></div>
-    <div class="hero-inner">
-      <div class="hero-content">
-        <h1>All Sunday Brand Hotels in the UK — one simple link</h1>
-        <p class="hero-lead">Discover our collection across England, Scotland, and Wales. Search, filter and jump straight to each hotel's website or booking engine.</p>
-        <a href="#all-hotels" class="hero-cta">Browse Hotels <span class="arrow">→</span></a>
+    <!-- Grid -->
+    <main id="all-hotels" class="grid" aria-live="polite">
+      <!-- CARD 1: WALTON HALL -->
+      <article
+        class="card"
+        data-name="Walton Hall"
+        data-city="Wellesbourne"
+        data-region="England"
+        data-tags="spa,meetings,weddings,dog"
+      >
+        <img
+          src="images/walton-hall.jpg"
+          alt="Walton Hall Hotel & Spa exterior"
+          loading="lazy"
+        />
+        <div class="card-body">
+          <h3>Sunday Warwickshire Walton Hall Hotel & Spa</h3>
+          <div class="meta">Wellesbourne, Warwickshire • England</div>
+          <div class="badges">
+            <span class="badge">Spa</span>
+            <span class="badge">Meetings</span>
+            <span class="badge">Weddings</span>
+            <span class="badge">Dog friendly</span>
+          </div>
+          <div class="actions">
+            <a
+              class="site"
+              href="https://k42273264-alt.github.io/Walton-Sunday/"
+              target="_blank"
+              rel="noopener"
+              >Website</a
+            >
+            <a
+              class="book"
+              href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENWCW001&property_id=a21b3ab9-512f-413e-91bc-5077d3b10bb0&url=https://www.oyorooms.com/gb/292291/"
+              target="_blank"
+              rel="noopener"
+              >Book now</a
+            >
+          </div>
+          <div class="map-preview">
+          </div>
+          
+        </div>
+      </article>
+
+      <!-- CARD 2: BRISTOL GRAND HOTEL -->
+      <article
+        class="card"
+        data-name="Bristol Grand"
+        data-city="Bristol"
+        data-region="England"
+        data-tags="meetings,weddings,dog"
+      >
+        <img
+          src="images/bristol.jpg"
+          alt="Bristol Grand Hotel Victorian facade"
+          loading="lazy"
+        />
+        <div class="card-body">
+          <h3>Sunday Bristol Grand Hotel</h3>
+          <div class="meta">Bristol • England</div>
+          <div class="badges">
+            <span class="badge">Meetings</span>
+            <span class="badge">Weddings</span>
+            <span class="badge">Dog friendly</span>
+          </div>
+          <div class="actions">
+            <a
+              class="site"
+              href="https://bristolgrandhotel.booksundays.com/"
+              target="_blank"
+              rel="noopener"
+              >Website</a
+            >
+            <a
+              class="book"
+              href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENBSL009&property_id=269834dc-f813-4b0e-8e60-479d0f8f8bff&url=https%3A%2F%2Fwww.oyorooms.com%2F"
+              target="_blank"
+              rel="noopener"
+              >Book now</a
+            >
+          </div>
+          <div class="map-preview">
+          </div>
+          
+        </div>
+      </article>
+
+      <!-- CARD 3: LIVERPOOL ATLANTIC TOWER -->
+      <article
+        class="card"
+        data-name="Liverpool Atlantic"
+        data-city="Liverpool"
+        data-region="England"
+        data-tags="meetings,weddings,dog"
+      >
+        <img
+          src="images/liverpool.jpg"
+          alt="Liverpool Atlantic Tower Hotel with Mersey view"
+          loading="lazy"
+        />
+        <div class="card-body">
+          <h3>Sunday Liverpool Atlantic Tower Hotel</h3>
+          <div class="meta">Liverpool • England</div>
+          <div class="badges">
+            <span class="badge">Meetings</span>
+            <span class="badge">Weddings</span>
+            <span class="badge">Dog friendly</span>
+          </div>
+          <div class="actions">
+            <a
+              class="site"
+              href="https://liverpoolatlantictowerhotel.booksundays.com/"
+              target="_blank"
+              rel="noopener"
+              >Website</a
+            >
+            <a
+              class="book"
+              href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENLRL018&property_id=4cac0d70-a117-4d53-aead-1239b15f68b4&url=https%3A%2F%2Fwww.oyorooms.com%2F"
+              target="_blank"
+              rel="noopener"
+              >Book now</a
+            >
+          </div>
+          <div class="map-preview">
+          </div>
+          
+        </div>
+      </article>
+
+      <!-- CARD 4: WINCHESTER WESSEX HOTEL -->
+      <article
+        class="card"
+        data-name="Winchester Wessex"
+        data-city="Winchester"
+        data-region="England"
+        data-tags="meetings,weddings,dog"
+      >
+        <img
+          src="images/winchester-exterior.jpg"
+          alt="Winchester Wessex Hotel with Cathedral view"
+          loading="lazy"
+        />
+        <div class="card-body">
+          <h3>Sunday Winchester Wessex Hotel</h3>
+          <div class="meta">Winchester • England</div>
+          <div class="badges">
+            <span class="badge">Meetings</span>
+            <span class="badge">Weddings</span>
+            <span class="badge">Dog friendly</span>
+          </div>
+          <div class="actions">
+            <a
+              class="site"
+              href="https://winchesterwessexhotel.booksundays.com"
+              target="_blank"
+              rel="noopener"
+              >Website</a
+            >
+            <a
+              class="book"
+              href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENWER001&property_id=84203580-4f1d-4a6e-924a-e66c0bae2da3&url=https://www.oyorooms.com/gb/291852/"
+              target="_blank"
+              rel="noopener"
+              >Book now</a
+            >
+          </div>
+          <div class="map-preview">
+          </div>
+          
+        </div>
+      </article>
+
+      <!-- CARD 5: MANCHESTER PORTLAND -->
+      <article
+        class="card"
+        data-name="Manchester Portland"
+        data-city="Manchester"
+        data-region="England"
+        data-tags="meetings,dog"
+      >
+        <img
+          src="images/manchester.png"
+          alt="Manchester Portland by Sunday exterior"
+          loading="lazy"
+        />
+        <div class="card-body">
+          <h3>Sunday Manchester Portland Hotel</h3>
+          <div class="meta">Manchester • England</div>
+          <div class="badges">
+            <span class="badge">Meetings</span>
+            <span class="badge">Dog friendly</span>
+          </div>
+          <div class="actions">
+            <a
+              class="site"
+              href="https://manchesterportlandhotel.booksundays.com/"
+              target="_blank"
+              rel="noopener"
+              >Website</a
+            >
+            <a
+              class="book"
+              href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENMCR039&property_id=777b2317-5d6d-4b8d-8675-c2f79c1fc8c6&url=http%3A%2F%2Fwww.oyo.com%2F"
+              target="_blank"
+              rel="noopener"
+              >Book now</a
+            >
+          </div>
+          <div class="map-preview">
+          </div>
+          
+        </div>
+      </article>
+
+      <!-- CARD 6: STAINES HOTEL -->
+      <article
+        class="card"
+        data-name="Staines"
+        data-city="Staines-upon-Thames"
+        data-region="England"
+        data-tags="meetings"
+      >
+        <img
+          src="images/london-staines.jpg"
+          alt="Staines Hotel by Sunday riverside view"
+          loading="lazy"
+        />
+        <div class="card-body">
+          <h3>Sunday Staines Hotel</h3>
+          <div class="meta">Staines-upon-Thames • England</div>
+          <div class="badges">
+            <span class="badge">Meetings</span>
+          </div>
+          <div class="actions">
+            <a
+              class="site"
+              href="https://staineshotel.booksundays.com/"
+              target="_blank"
+              rel="noopener"
+              >Website</a
+            >
+            <a
+              class="book"
+              href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENSIS001&property_id=1e93d85f-1e51-455c-93ec-ce82c4743120&url=https://www.oyorooms.com/gb/291294/"
+              target="_blank"
+              rel="noopener"
+              >Book now</a
+            >
+          </div>
+          <div class="map-preview">
+          </div>
+          
+        </div>
+      </article>
+
+      <!-- CARD 7: EXETER ROUGEMONT -->
+      <article
+        class="card"
+        data-name="Rougemont"
+        data-city="Exeter"
+        data-region="England"
+        data-tags="meetings,weddings,dog"
+      >
+        <img
+          src="images/exeter.avif"
+          alt="The Rougemont Hotel by Sunday with Exeter Cathedral view"
+          loading="lazy"
+        />
+        <div class="card-body">
+          <h3>Sunday Exeter Rougemont Hotel</h3>
+          <div class="meta">Exeter • England</div>
+          <div class="badges">
+            <span class="badge">Meetings</span>
+            <span class="badge">Weddings</span>
+            <span class="badge">Dog friendly</span>
+          </div>
+          <div class="actions">
+            <a
+              class="site"
+              href="https://exeterrougemonthotel.booksundays.com/"
+              target="_blank"
+              rel="noopener"
+              >Website</a
+            >
+            <a
+              class="book"
+              href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENERR003&property_id=3be626f1-9f3f-45f9-8170-609f9473817e&url=https://www.oyorooms.com/gb/291853/"
+              target="_blank"
+              rel="noopener"
+              >Book now</a
+            >
+          </div>
+          <div class="map-preview">
+          </div>
+          
+        </div>
+      </article>
+
+      <!-- CARD 8: CARDIFF HOLLAND HOUSE -->
+      <article
+        class="card"
+        data-name="Cardiff Holland House"
+        data-city="Cardiff"
+        data-region="Wales"
+        data-tags="spa,meetings,weddings"
+      >
+        <img
+          src="images/cardiff.jpg"
+          alt="Cardiff Holland House Hotel & Spa exterior"
+          loading="lazy"
+        />
+        <div class="card-body">
+          <h3>Sunday Cardiff Holland House Hotel & Spa</h3>
+          <div class="meta">Cardiff • Wales</div>
+          <div class="badges">
+            <span class="badge">Spa</span>
+            <span class="badge">Meetings</span>
+            <span class="badge">Weddings</span>
+          </div>
+          <div class="actions">
+            <a
+              class="site"
+              href="https://hollandhousecardiff.booksundays.com/"
+              target="_blank"
+              rel="noopener"
+              >Website</a
+            >
+            <a
+              class="book"
+              href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=WLCDF007&property_id=03e17c6f-3b79-45f3-9e6d-96b7b9438466"
+              target="_blank"
+              rel="noopener"
+              >Book now</a
+            >
+          </div>
+          <div class="map-preview">
+          </div>
+          
+        </div>
+      </article>
+
+      <!-- CARD 9: BOX HILL BURFORD BRIDGE -->
+      <article
+        class="card"
+        data-name="Box Hill Burford"
+        data-city="Dorking"
+        data-region="England"
+        data-tags="meetings,weddings,dog"
+      >
+        <img
+          src="images/boxhill.jpg"
+          alt="Sunday Box Hill Burford Bridge Hotel exterior"
+          loading="lazy"
+        />
+        <div class="card-body">
+          <h3>Sunday Box Hill Burford Bridge Hotel</h3>
+          <div class="meta">Dorking, Surrey • England</div>
+          <div class="badges">
+            <span class="badge">Meetings</span>
+            <span class="badge">Weddings</span>
+            <span class="badge">Dog friendly</span>
+          </div>
+          <div class="actions">
+            <a
+              class="site"
+              href="https://burfordbridgehotel.booksundays.com/index.html"
+              target="_blank"
+              rel="noopener"
+              >Website</a
+            >
+            <a
+              class="book"
+              href="https://booking.emea.hkclients.com/index.html#/booking/search"
+              target="_blank"
+              rel="noopener"
+              >Book now</a
+            >
+          </div>
+          <div class="map-preview">
+          </div>
+          
+        </div>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-inner">
+        <div>
+          © <span id="y"></span> Sunday Hotels — UK Collection. All rights
+          reserved.
+        </div>
+        <div class="desktop-only" style="margin-top: 6px">
+          Need edits? Email
+          <a href="mailto:web@hotelssunday.com">web@hotelssunday.com</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- Controls -->
-  <div class="controls" id="controls">
-    <div class="controls-inner">
-      <input id="q" class="input" type="search" placeholder="Search by hotel or city…" aria-label="Search hotels" />
-      <select id="region" class="select" aria-label="Filter by region">
-        <option value="">All regions</option>
-        <option>England</option>
-        <option>Scotland</option>
-        <option>Wales</option>
-      </select>
-      <select id="purpose" class="select" aria-label="Filter by purpose">
-        <option value="">Any purpose</option>
-        <option value="weddings">Weddings</option>
-        <option value="meetings">Meetings</option>
-        <option value="spa">Spa</option>
-      </select>
-      <label class="checkbox" title="Dog friendly only">
-        <input id="dog" type="checkbox" /> Dog friendly
-      </label>
-      <button id="reset" class="btn" type="button">Reset</button>
-    </div>
-  </div>
-
-  <!-- Grid -->
-  <main id="all-hotels" class="grid" aria-live="polite">
-
-    <!-- CARD 1: WALTON HALL -->
-    <article class="card"
-             data-name="Walton Hall"
-             data-city="Wellesbourne"
-             data-region="England"
-             data-tags="spa,meetings,weddings,dog">
-      <img src="images/walton-hall.jpg" alt="Walton Hall Hotel & Spa exterior" loading="lazy" />
-      <div class="card-body">
-        <h3>Sunday Warwickshire Walton Hall Hotel & Spa</h3>
-        <div class="meta">Wellesbourne, Warwickshire • England</div>
-        <div class="badges">
-          <span class="badge">Spa</span>
-          <span class="badge">Meetings</span>
-          <span class="badge">Weddings</span>
-          <span class="badge">Dog friendly</span>
-        </div>
-        <div class="map-preview">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2447.062793643026!2d-1.5853167239732526!3d52.16955176211738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870d2bd4193631f%3A0x49a670a470975fe1!2sWalton%20Hall%20Hotel%20%26%20Spa%20by%20Sunday!5e0!3m2!1sen!2sin!4v1762870548351!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="actions">
-          <a class="site" href="https://k42273264-alt.github.io/Walton-Sunday/" target="_blank" rel="noopener">Website</a>
-          <a class="book" href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENWCW001&property_id=a21b3ab9-512f-413e-91bc-5077d3b10bb0&url=https://www.oyorooms.com/gb/292291/" target="_blank" rel="noopener">Book now</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- CARD 2: BRISTOL GRAND HOTEL -->
-    <article class="card"
-             data-name="Bristol Grand"
-             data-city="Bristol"
-             data-region="England"
-             data-tags="meetings,weddings,dog">
-      <img src="images/bristol.jpg" alt="Bristol Grand Hotel Victorian facade" loading="lazy" />
-      <div class="card-body">
-        <h3>Sunday Bristol Grand Hotel</h3>
-        <div class="meta">Bristol • England</div>
-        <div class="badges">
-          <span class="badge">Meetings</span>
-          <span class="badge">Weddings</span>
-          <span class="badge">Dog friendly</span>
-        </div>
-        <div class="map-preview">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.1547076603765!2d-2.595968124021422!3d51.45531591450771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718e7784d19485%3A0x5780cbeeaa5675f3!2sBristol%20Grand%20Hotel%20By%20Sunday!5e0!3m2!1sen!2sin!4v1762870645523!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="actions">
-          <a class="site" href="https://bristolgrandhotel.booksundays.com/" target="_blank" rel="noopener">Website</a>
-          <a class="book" href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENBSL009&property_id=269834dc-f813-4b0e-8e60-479d0f8f8bff&url=https%3A%2F%2Fwww.oyorooms.com%2F" target="_blank" rel="noopener">Book now</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- CARD 3: LIVERPOOL ATLANTIC TOWER -->
-    <article class="card"
-             data-name="Liverpool Atlantic"
-             data-city="Liverpool"
-             data-region="England"
-             data-tags="meetings,weddings,dog">
-      <img src="images/liverpool.jpg" alt="Liverpool Atlantic Tower Hotel with Mersey view" loading="lazy" />
-      <div class="card-body">
-        <h3>Sunday Liverpool Atlantic Tower Hotel</h3>
-        <div class="meta">Liverpool • England</div>
-        <div class="badges">
-          <span class="badge">Meetings</span>
-          <span class="badge">Weddings</span>
-          <span class="badge">Dog friendly</span>
-        </div>
-        <div class="map-preview">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2378.407982448854!2d-2.997793223888539!3d53.40752937014458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b213271b5de89%3A0x894bcd376974af1d!2sAtlantic%20Tower%20Hotel%20Liverpool%20By%20Sunday!5e0!3m2!1sen!2sin!4v1762870711324!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="actions">
-          <a class="site" href="https://liverpoolatlantictowerhotel.booksundays.com/" target="_blank" rel="noopener">Website</a>
-          <a class="book" href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENLRL018&property_id=4cac0d70-a117-4d53-aead-1239b15f68b4&url=https%3A%2F%2Fwww.oyorooms.com%2F" target="_blank" rel="noopener">Book now</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- CARD 4: WINCHESTER WESSEX HOTEL -->
-    <article class="card"
-             data-name="Winchester Wessex"
-             data-city="Winchester"
-             data-region="England"
-             data-tags="meetings,weddings,dog">
-      <img src="images/winchester-exterior.jpg" alt="Winchester Wessex Hotel with Cathedral view" loading="lazy" />
-      <div class="card-body">
-        <h3>Sunday Winchester Wessex Hotel</h3>
-        <div class="meta">Winchester • England</div>
-        <div class="badges">
-          <span class="badge">Meetings</span>
-          <span class="badge">Weddings</span>
-          <span class="badge">Dog friendly</span>
-        </div>
-        <div class="map-preview">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.5595688923613!2d-1.3142069240477765!3d51.061219743200915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48740d89952650eb%3A0x25858970032278ab!2sWinchester%20Wessex%20Hotel%20by%20Sunday!5e0!3m2!1sen!2sin!4v1762870942539!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="actions">
-          <a class="site" href="https://winchesterwessexhotel.booksundays.com" target="_blank" rel="noopener">Website</a>
-          <a class="book" href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENWER001&property_id=84203580-4f1d-4a6e-924a-e66c0bae2da3&url=https://www.oyorooms.com/gb/291852/" target="_blank" rel="noopener">Book now</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- CARD 5: MANCHESTER PORTLAND -->
-    <article class="card"
-             data-name="Manchester Portland"
-             data-city="Manchester"
-             data-region="England"
-             data-tags="meetings,dog">
-      <img src="images/manchester.png" alt="Manchester Portland by Sunday exterior" loading="lazy" />
-      <div class="card-body">
-        <h3>Sunday Manchester Portland Hotel</h3>
-        <div class="meta">Manchester • England</div>
-        <div class="badges">
-          <span class="badge">Meetings</span>
-          <span class="badge">Dog friendly</span>
-        </div>
-        <div class="map-preview">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.3367207653505!2d-2.2379289238835276!3d53.48031316469195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1be52de2465%3A0x659f50d5f3a8cdee!2sManchester%20Portland%20by%20Sunday!5e0!3m2!1sen!2sin!4v1762871058219!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="actions">
-          <a class="site" href="https://manchesterportlandhotel.booksundays.com/" target="_blank" rel="noopener">Website</a>
-          <a class="book" href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENMCR039&property_id=777b2317-5d6d-4b8d-8675-c2f79c1fc8c6&url=http%3A%2F%2Fwww.oyo.com%2F" target="_blank" rel="noopener">Book now</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- CARD 6: STAINES HOTEL -->
-    <article class="card"
-             data-name="Staines"
-             data-city="Staines-upon-Thames"
-             data-region="England"
-             data-tags="meetings">
-      <img src="images/london-staines.jpg" alt="Staines Hotel by Sunday riverside view" loading="lazy" />
-      <div class="card-body">
-        <h3>Sunday Staines Hotel</h3>
-        <div class="meta">Staines-upon-Thames • England</div>
-        <div class="badges">
-          <span class="badge">Meetings</span>
-        </div>
-        <div class="map-preview">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.453102651928!2d-0.5140549240230299!3d51.43147221624812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876712b9b77ddc3%3A0x95bc02d5e5700080!2sSunday%20London%20Staines-upon-Thames%20Heathrow%20T5!5e0!3m2!1sen!2sin!4v1762871109098!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="actions">
-          <a class="site" href="https://staineshotel.booksundays.com/" target="_blank" rel="noopener">Website</a>
-          <a class="book" href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENSIS001&property_id=1e93d85f-1e51-455c-93ec-ce82c4743120&url=https://www.oyorooms.com/gb/291294/" target="_blank" rel="noopener">Book now</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- CARD 7: EXETER ROUGEMONT -->
-    <article class="card"
-             data-name="Rougemont"
-             data-city="Exeter"
-             data-region="England"
-             data-tags="meetings,weddings,dog">
-      <img src="images/exeter.avif" alt="The Rougemont Hotel by Sunday with Exeter Cathedral view" loading="lazy" />
-      <div class="card-body">
-        <h3>Sunday Exeter Rougemont Hotel</h3>
-        <div class="meta">Exeter • England</div>
-        <div class="badges">
-          <span class="badge">Meetings</span>
-          <span class="badge">Weddings</span>
-          <span class="badge">Dog friendly</span>
-        </div>
-        <div class="map-preview">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.7027668505884!2d-3.5362061240700875!3d50.72545326752573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da43975da0fa7%3A0x94557ca4e3a7e5f!2sExeter%20Rougemont%20hotel%20by%20Sunday!5e0!3m2!1sen!2sin!4v1762871151280!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="actions">
-          <a class="site" href="https://exeterrougemonthotel.booksundays.com/" target="_blank" rel="noopener">Website</a>
-          <a class="book" href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=ENERR003&property_id=3be626f1-9f3f-45f9-8170-609f9473817e&url=https://www.oyorooms.com/gb/291853/" target="_blank" rel="noopener">Book now</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- CARD 8: CARDIFF HOLLAND HOUSE -->
-    <article class="card"
-             data-name="Cardiff Holland House"
-             data-city="Cardiff"
-             data-region="Wales"
-             data-tags="spa,meetings,weddings">
-      <img src="images/cardiff.jpg" alt="Cardiff Holland House Hotel & Spa exterior" loading="lazy" />
-      <div class="card-body">
-        <h3>Sunday Cardiff Holland House Hotel & Spa</h3>
-        <div class="meta">Cardiff • Wales</div>
-        <div class="badges">
-          <span class="badge">Spa</span>
-          <span class="badge">Meetings</span>
-          <span class="badge">Weddings</span>
-        </div>
-        <div class="map-preview">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.612745394434!2d-3.1695800240195235!3d51.483622212440885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1cc7c5fa2f63%3A0xcc82fee501caeb17!2sHolland%20House%20Hotel%20Cardiff%20By%20Sunday!5e0!3m2!1sen!2sin!4v1762871196506!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="actions">
-          <a class="site" href="https://hollandhousecardiff.booksundays.com/" target="_blank" rel="noopener">Website</a>
-          <a class="book" href="https://booking.emea.hkclients.com/index.html#/booking/search?pc=WLCDF007&property_id=03e17c6f-3b79-45f3-9e6d-96b7b9438466" target="_blank" rel="noopener">Book now</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- CARD 9: BOX HILL BURFORD BRIDGE -->
-    <article class="card"
-             data-name="Box Hill Burford"
-             data-city="Dorking"
-             data-region="England"
-             data-tags="meetings,weddings,dog">
-      <img src="images/boxhill.jpg" alt="Sunday Box Hill Burford Bridge Hotel exterior" loading="lazy" />
-      <div class="card-body">
-        <h3>Sunday Box Hill Burford Bridge Hotel</h3>
-        <div class="meta">Dorking, Surrey • England</div>
-        <div class="badges">
-          <span class="badge">Meetings</span>
-          <span class="badge">Weddings</span>
-          <span class="badge">Dog friendly</span>
-        </div>
-        <div class="map-preview">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2497.066479030855!2d-0.32435592403486135!3d51.254685329134325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875e6f92e3aa711%3A0xda4ef414a0d63d37!2sSunday%20Box%20Hill%20Burford%20Bridge%20Hotel!5e0!3m2!1sen!2sin!4v1762871247657!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="actions">
-          <a class="site" href="https://burfordbridgehotel.booksundays.com/index.html" target="_blank" rel="noopener">Website</a>
-          <a class="book" href="https://booking.emea.hkclients.com/index.html#/booking/search" target="_blank" rel="noopener">Book now</a>
-        </div>
-      </div>
-    </article>
-
-  </main>
-
-  <!-- Footer -->
-  <footer>
-    <div class="footer-inner">
-      <div>© <span id="y"></span> Sunday Hotels — UK Collection. All rights reserved.</div>
-      <div class="desktop-only" style="margin-top:6px">Need edits? Email <a href="mailto:web@hotelssunday.com">web@hotelssunday.com</a></div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
-</body>
+    <script src="script.js"></script>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>

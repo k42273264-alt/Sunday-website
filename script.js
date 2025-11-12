@@ -63,3 +63,44 @@ document.querySelectorAll('.card').forEach(card => {
     mapDiv.appendChild(a);
   }
 });
+
+// --- HERO SEARCH: search by hotel name OR city name ---
+const heroSearch = document.getElementById('heroSearch');
+const heroBtn = document.getElementById('heroSearchBtn');
+const mainSearch = document.getElementById('q');
+const allHotels = document.getElementById('all-hotels');
+
+if (heroSearch && heroBtn && mainSearch && allHotels) {
+  function applyHeroSearch() {
+    const term = heroSearch.value.trim().toLowerCase();
+    mainSearch.value = term;
+    // Trigger your existing filter logic
+    mainSearch.dispatchEvent(new Event('input'));
+    // Scroll smoothly to the results section
+    document.querySelector('#controls').scrollIntoView({ behavior: 'smooth' });
+  }
+
+  heroBtn.addEventListener('click', applyHeroSearch);
+  heroSearch.addEventListener('keypress', e => {
+    if (e.key === 'Enter') applyHeroSearch();
+  });
+}
+
+// --- Header "Browse Hotels" button scrolls & highlights hero search ---
+const browseHotelsBtn = document.getElementById('browseHotelsBtn');
+const herosearch = document.getElementById('heroSearch');
+
+if (browseHotelsBtn && heroSearch) {
+  browseHotelsBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    heroSearch.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    setTimeout(() => {
+      heroSearch.focus();
+      heroSearch.classList.add('glow');        // ✨ add glow
+      setTimeout(() => heroSearch.classList.remove('glow'), 1200); // remove after animation
+    }, 600);
+  });
+}
+
+
